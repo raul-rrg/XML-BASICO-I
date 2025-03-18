@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--Añadimos la declarcion inicial en el que incluimos como atribito la version y el formato de codigo, esta 
+siempre debe ser la primera linea del documento XML-->
+
+<!--
+Nombre: Raul Rivera Garrido
+Curso: 1 º DAM
+Fecha: [18/03/2025]
+Ejercicio-1: Ciudades 
+-->
+
+<!-- Creamos un listado con todas las ciudades --> 
+<ciudades>
+    <!--En cada ciudad definimos su nombre y pais-->
+    <ciudad>
+        <nombre>Nueva Delhi</nombre> 
+        <!--En cada pais definimos un atributo el cual indicara el contiente que pertenece-->
+        <pais continente="Asia">India</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>Lisboa</nombre> 
+        <pais continente="Europa">Portugal</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>El Cairo</nombre> 
+        <pais continente="África">Egipto</pais>
+    </ciudad>
+
+</ciudades>
+

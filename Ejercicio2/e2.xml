@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--Añadimos la declarcion inicial en el que incluimos como atribito la version y el formato de codigo, esta 
+siempre debe ser la primera linea del documento XML-->
+
+<!--
+Nombre: Raul Rivera Garrido
+Curso: 1 º DAM
+Fecha: [18/03/2025]
+Ejercicio-2: Hechos-Historicos
+-->
+
+<!-- Listado de todos hechos historicos -->
+<hechos>
+    <!--Añadimos un atributo a cadad hecho que sera su descripcion-->
+    <hecho descripcion="IBM da a conocer el PC.">
+        <!--Añadimos un elemento fecha para contener todos sus datos-->
+        <fecha>
+            <dia>12</dia>
+            <mes>8</mes>
+            <año>1981</año>
+        </fecha>
+    </hecho>
+
+    <hecho descripcion="Se funda Google.">
+        <fecha>
+            <dia>4</dia>
+            <mes>9</mes>
+            <año>1998</año>
+        </fecha>
+    </hecho>
+
+    <hecho descripcion="Se funda Facebook.">
+        <fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <año>2004</año>
+        </fecha>
+    </hecho>
+
+</hechos>
+

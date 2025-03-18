@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--Añadimos la declarcion inicial en el que incluimos como atribito la version y el formato de codigo, esta 
+siempre debe ser la primera linea del documento XML-->
+
+<!--
+Nombre: Raul Rivera Garrido
+Curso: 1ºDAM
+Fecha: [18/03/2025]
+Ejercicio-3: Libros 
+-->
+
+<!--Creamos un elemento libros que contendra un listado con todos los libros-->
+<libros>
+    <!--Cada libro tendra los atributos: titulo, autor y año de publicacion-->
+    <libro titulo="Los juegos del hambre" autor="Suzanne Collinsz" añoPublicacion="2008"/>
+    <libro titulo="Hábitos atómicos" autor="James Clear" añoPublicacion="2020"/>
+    <libro titulo="Harry Potter y la piedra filosofal" autor="J.K Rowling" añoPublicacion="1997"/>
+    
+</libros>
+
